@@ -1,6 +1,6 @@
 {
   "name": "events-listener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Listen to events from a Node.js EventEmitter.",
   "main": "index.js",
   "scripts": {
