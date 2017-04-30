@@ -12,7 +12,11 @@
   },
   "keywords": [
     "events",
-    "node"
+    "EventEmitter",
+    "listenTo",
+    "node",
+    "node.js",
+    "stopListening"
   ],
   "author": "Jason Walton",
   "license": "MIT",
