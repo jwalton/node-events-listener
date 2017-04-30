@@ -4,6 +4,8 @@ an object that can listen for events.
 This was heavily inspired by [Backbone](http://backbonejs.org/)'s `listenTo()` and `stopListening()` functions.
 The idea is to make it easy to de-regster an event listener when you're done with it.
 
+Supports Node.js 0.12 and up.
+
 Event Listener Memory Leaks
 ===========================
 
