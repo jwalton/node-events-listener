@@ -14,7 +14,7 @@ function EventListener() {
  * @return {EventListener} - Returns a reference to the `EventListener` so calls can be chained.
  */
 EventListener.prototype.listenTo = function(target, event, handler) {
-    this._listeners.push({target, event, handler});
+    this._listeners.push({target: target, event: event, handler: handler});
     target.on(event, handler);
     return this;
 }
@@ -41,7 +41,7 @@ EventListener.prototype.listenToOnce = function(target, event, handler) {
         handler.apply(_this, arguments);
     };
 
-    this._listeners.push({target, event, handler, once});
+    this._listeners.push({target: target, event: event, handler: handler, once: once});
     target.once(event, once);
     return this;
 }
