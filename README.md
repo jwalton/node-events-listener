@@ -71,15 +71,17 @@ widget = null;
 API
 ===
 
-### listenTo(emitter, event, handler)
+### class EventListener
+
+#### EventListener.listenTo(emitter, event, handler)
 
 Similar to calling `emitter.on(event, handler)`.
 
-### listenToOnce(emitter, event, handler)
+#### EventListener.listenToOnce(emitter, event, handler)
 
 Similar to calling `emitter.once(event, handler)`.
 
-### stopListening([emitter,] [event,] [handler]);
+#### EventListener.stopListening([emitter,] [event,] [handler]);
 
 Stop listening to some or all events that were registered with calls to `listenTo()` or `listenToOnce()`.
 
