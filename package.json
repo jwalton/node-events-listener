@@ -4,7 +4,8 @@
   "description": "Listen to events from a Node.js EventEmitter.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prepublishOnly": "mocha"
   },
   "repository": {
     "type": "git",
