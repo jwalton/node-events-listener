@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Listen to events from a Node.js EventEmitter.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha",
     "prepublishOnly": "mocha"
