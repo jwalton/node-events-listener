@@ -9,6 +9,8 @@ Supports Node.js 0.12 and up.
 Event Listener Memory Leaks
 ===========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jwalton/node-events-listener.svg)](https://greenkeeper.io/)
+
 ```js
 import EventEmitter from 'events';
 
